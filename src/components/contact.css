@@ -1,0 +1,170 @@
+#contact{
+    min-height: calc(100vh - 4rem);
+    width: 100vw;
+    max-width: 60rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+.codeTitle{
+    font-size: 3rem;
+    font-weight: 600;
+    padding-top: 3rem;
+    margin-bottom: 0.8rem;
+    color: #FFDB00;
+}
+
+.socialTitle{
+    font-size: 3rem;
+    font-weight: 600;
+    padding-top: 3rem;
+    margin-bottom: 0.8rem;
+    color: #FFDB00;
+}
+
+.codeDesk{
+    padding: 0.5rem;
+    margin-bottom: 3rem;
+    font-size: 1.5rem;
+    font-weight: 300;
+}
+
+.socialDesk{
+    padding: 0.5rem;
+    margin-bottom: 3rem;
+    font-size: 1.5rem;
+    font-weight: 300;
+}
+
+.codeImgs{
+    margin: 1rem 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.socialImgs{
+    margin: 1rem 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.codeImg{
+    object-fit: cover;
+    width: 23%;
+    border-radius: 2rem;
+    min-width: 7rem;
+    margin: auto;
+    padding: 1.7rem;
+}
+
+.socialImg{
+    object-fit: cover;
+    width: 23%;
+    min-width: 7rem;
+    margin: auto;
+    padding: 0.5rem;
+}
+
+.codeImg:hover{
+    transition: all 0.2s;
+    transform: scale(1.5);
+}
+
+.socialImg:hover{
+    transition: all 0.2s;
+    transform: scale(1.5);
+}
+
+#code{
+    padding: 2rem;
+}
+
+#social{
+    padding: 2rem;
+}
+
+.contactTitle{
+    font-size: 3rem;
+    font-weight: 600;
+    padding-top: 3rem;
+    color: #FFDB00;
+    margin-bottom: 0.8rem;
+}
+
+.contactDesc{
+    font-weight: 400;
+    font-size: 1.5rem;
+    max-width: 50rem;
+    padding: 0 2rem;
+}
+
+.contactForm{
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 90vw;
+    max-width: 60rem;
+}
+
+.name, .email, .msg{
+    font-size: medium;
+    width: 100%;
+    max-width: 40rem;
+    margin: 0.5rem;
+    padding: 0.5rem 0.5rem;
+    color: white;
+    border: none;
+    border-radius: 0.5rem;
+    background: rgb(40, 40, 40);
+}
+
+.submitBtn{
+    background: white;
+    border: none;
+    border-radius: 0.5rem;
+    margin: 2rem;
+    padding: 0.75rem 3.5rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.submitBtn:hover{
+    background: #FFDB00;
+}
+
+
+@media screen and (max-width: 500px){
+    .contactForm{
+        margin-right:2rem;
+    }
+}
+
+@media screen and (max-width: 580px){
+    .socialImg{
+        min-width: 18vw;
+    }
+    .codeImg{
+        min-width: 18vw;
+    }
+}
+
+@media screen and (max-width: 420px){
+    .socialImg{
+        min-width: 30vw;
+    }
+    .codeImg{
+        min-width: 30vw;
+    }
+}
+
+
+
+
+
